@@ -1,0 +1,43 @@
+{
+  "name": "social-media-challenge",
+  "version": "1.0.0",
+  "description": "back-end of a social media challenge",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "node dist/main.js",
+    "start:dev": "ts-node src/main.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-PabloC/social-media-challenge.git"
+  },
+  "keywords": [],
+  "author": "Pablo C. <pablo.dev.carvalho@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dev-PabloC/social-media-challenge/issues"
+  },
+  "homepage": "https://github.com/Dev-PabloC/social-media-challenge#readme",
+  "dependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.2",
+  "zod": "^3.22.2",
+    "morgan": "^1.10.1",
+    "socket.io": "^4.8.3",
+    "ts-node": "^10.9.2",
+    "typeorm": "^0.3.28"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/express": "^5.0.6",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^25.5.0",
+    "reflect-metadata": "^0.2.2",
+    "typescript": "^6.0.2"
+  }
+}
